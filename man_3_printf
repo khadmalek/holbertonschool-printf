@@ -1,0 +1,28 @@
+.TH _PRINTF 3 "March 2024" "Holberton School"
+.SH NAME
+\_printf \- formatted output conversion
+.SH SYNOPSIS
+.B #include "main.h"
+.PP
+.B int \_printf(const char *format, ...);
+.SH DESCRIPTION
+The \fB_printf()\fR function writes output to stdout, the standard output. It writes under the control of a format string that specifies how subsequent arguments (accessed via the variable-length argument facilities of stdarg) are converted for output.
+.PP
+Upon successful return, \fB_printf()\fR returns the number of characters printed (excluding the null byte used to end output to strings). If an output error is encountered, -1 is returned.
+.SH FORMAT OF THE FORMAT STRING
+The format string is a constant character string composed of zero or more directives: ordinary characters (not %) which are copied unchanged to the output stream; and conversion specifications, each of which results in fetching zero or more subsequent arguments. Conversion specification is introduced by the character % and ends with a conversion specifier.
+.SH RETURN VALUE
+Upon successful return, \fB_printf()\fR returns the number of characters printed (excluding the null byte used to end output to strings). If an output error is encountered, -1 is returned.
+.SH BUGS
+Code such as \fB_printf(\fIfoo\fB);\fR possibly indicates a bug, since \fIfoo\fR may contain a % character.
+.SH EXAMPLES
+To print "Hello, Holberton!" to the standard output:
+.B \_printf("Hello, Holberton!\n");
+.PP
+To print a formatted string with a variable:
+.B \_printf("The value of x is: %d\n", x);
+.SH SEE ALSO
+printf(3)
+.SH AUTHOR
+OKAN MAHOUTIN FULMINE, KHADIJA ABDELMALEK
+
