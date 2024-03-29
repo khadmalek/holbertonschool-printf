@@ -14,7 +14,7 @@ int print_digit(va_list args)
 	int index = 0;  /* Declaration of the 'index' variable here */
 	int i;
 
-	if (digit < 0)/* Check if the digit is negative */
+	if (digit < 0) /* Check if the digit is negative */
 	{
 		is_negative = 1;
 		digit = -digit;
