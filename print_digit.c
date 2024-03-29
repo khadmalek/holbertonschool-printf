@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_digit - Imprime des entiers.
+ * print_digit - Imprime les chiffres d'un entier.
  *
- * @args: Argument.
+ * @args: Liste d'arguments contenant l'entier à imprimer.
  *
- * Return: Nombre de caractères.
+ * Return: Le nombre de caractères imprimés.
  */
 
 int print_digit(va_list args)
