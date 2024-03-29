@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
 * print_digit - Prints a digit
 * @args: A list of arguments containing the digit to print
