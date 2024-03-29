@@ -22,8 +22,8 @@ int print_digit(va_list arguments);
 typedef struct format_handler_structure
 
 {
-        char specifier;
-        int (*function)(va_list);
+	char specifier;
+	int (*function)(va_list);
 } format_handler;
 
 #endif
