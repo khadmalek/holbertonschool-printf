@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
+
 /**
 *_printf: ..
 */
@@ -19,4 +22,3 @@ _printf("%i\n", -123);
 printf("%i\n", -123);
 return (0);
 }
-
