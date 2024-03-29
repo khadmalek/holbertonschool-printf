@@ -1,11 +1,13 @@
-# PRINTF
+# <p align="center">PRINTF</p>
 
 
-# Synopsis
+
+
+## Synopsis
 >The printf function in the C programming language, prints output according to format. The print function is used to print the "character, string, integer, percent, and a decimal" onto the output screen.
 
 
-# Description
+## Description
 
 > The printf function produces output according a format that follows conversion specifiers. A conversion specifier is a character that specifies the type of conversion to be used. It is used during input and output.
 
@@ -14,7 +16,7 @@
 >Printf is a function that writes output to the stdout, which is the standard output stream. Also, the function writes the output according to the format string. This format string specifies how the following arguments are converted for output.
 
 
-# Requirements
+## Requirements
 
 _Here we list the requirements for our `printf` implementation, including allowed editors, compilation instructions, coding style, and limitations._
 
@@ -29,7 +31,7 @@ _Here we list the requirements for our `printf` implementation, including allowe
 
 ## Prototype
 
-int _printf(const char *format, ...);
+```int _printf(const char *format, ...);```
 
 
 ## Format
@@ -47,7 +49,7 @@ _Here we present a table detailing various conversion specifiers used in the `pr
 
 
 
-# Files
+## Files
 
 _In this section, we describe the structure and the various files that we have used to create our printf function, to ensure that it is clear and organised:_
 
@@ -60,21 +62,27 @@ _In this section, we describe the structure and the various files that we have u
 
 
 ## Compilation
-
+```
 $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
+```
 
 
-# Diagramme
+## Diagram
 
-#  Man page 
-  
-Your description here
-    
-    
+_Visual representation or diagram illustrating the inner workings of the `printf` function._
+
+<img src="diagramme.jpeg">
+
+##  Man page 
+
+_A concise reference guide or manual page providing comprehensive information about our `printf` function._
+
+
+<img src="manpage.png">
 
 ## Example
   
-_Demonstration of how to use the `printf` function with various format specifiers, showcasing its versatility and utility._
+<p align="center">Demonstration of how to use the `printf` function with various format specifiers, showcasing its versatility and utility.</p>
 
 
 ```bash
@@ -100,7 +108,7 @@ printf("%i\n", -123);
 return (0);
 }
 ```
-Here is the output for the code above
+<p align="center">Here is the output for the code above:</p>
 
 ```bash
 H
@@ -117,20 +125,19 @@ Hello, world!
 
 
 
-# Resources
+## Resources
 
 _Links to additional resources and references used in the development of our `printf` implementation._
 
 
-[Link](https://lucid.app/lucidchart/89602a7b-d7f2-4df1-9103-d0a8e84405c6/edit?beaconFlowId=CC7C5B9253D62F02&invitationId=inv_c8d67e15-f958-4b55-a580-b1a3aed8193c&page=0_0#)
+[Lucid](https://lucid.app/lucidchart/89602a7b-d7f2-4df1-9103-d0a8e84405c6/edit?beaconFlowId=CC7C5B9253D62F02&invitationId=inv_c8d67e15-f958-4b55-a580-b1a3aed8193c&page=0_0#)
 
 
-[Link](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+[Format README](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
         
+[Format man](https://manpages.ubuntu.com/manpages/jammy/en/man7/groff_man.7.html)
 
-
-## 🙇 Author
-#### Mahoutin
-- Github: mahoutin19
-#### Khadija
-- Github: khadmalek
+##  Author
+#### OKAN Fulmine and ABDELMALEK Khadija
+- Github: [@Mahoutin19](https://github.com/mahoutin19)
+- Github: [@khadmalek](https://github.com/khadmalek/)
