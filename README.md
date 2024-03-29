@@ -1,6 +1,7 @@
 # <p align="center">PRINTF</p>
 
-<img src="image_printf.webp">
+<img src="img_printf.jpeg">
+
 
 
 
@@ -55,12 +56,12 @@ _Here we present a table detailing various conversion specifiers used in the `pr
 
 _In this section, we describe the structure and the various files that we have used to create our printf function, to ensure that it is clear and organised:_
 
-* _print_character.c
-* _print_percentage.c
-* _print_string.c
-* _print_digit.c
-* main.h
-* get_functions.c
+* [_print_character.c](_print_character.c):
+* [_print_percentage.c](_print_percentage.c)
+* [_print_string.c](_print_string.c)
+* [_print_digit.c](_print_digit.c)
+* [main.h](main.h)
+* [get_functions.c](get_function)
 
 
 ## Compilation
