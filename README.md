@@ -77,6 +77,46 @@ Your description here
 _Demonstration of how to use the `printf` function with various format specifiers, showcasing its versatility and utility._
 
 
+```bash
+#include <stdio.h>
+/**
+*_printf: ..
+*/
+
+int _printf(const char *format, ...);
+
+int main(void)
+{
+_printf("%c\n", 'H');
+printf("%c\n", 'H');
+_printf("%s\n", "Hello, world!");
+printf("%s\n", "Hello, world!");
+_printf("%%\n");
+printf("%%\n");
+_printf("%d\n", 42);
+printf("%d\n", 42);
+_printf("%i\n", -123);
+printf("%i\n", -123);
+return (0);
+}
+```
+Here is the output for the code above
+
+```bash
+H
+H
+Hello, world!
+Hello, world!
+%
+%
+42
+42
+-123
+-123
+```
+
+
+
 # Resources
 
 _Links to additional resources and references used in the development of our `printf` implementation._

@@ -9,8 +9,7 @@
  */
 int print_char(va_list arg)
 {
-    char character = va_arg(arg, int); // Correction de l'utilisation de va_arg
-
+    char character = va_arg(arg, int); 
     _putchar(character);
 
     return (1);

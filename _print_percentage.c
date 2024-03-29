@@ -15,4 +15,3 @@ int print_perc(va_list args)
     
     return (1); // Indiquer que 1 caractère ('%') a été imprimé
 }
-
