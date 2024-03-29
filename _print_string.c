@@ -2,12 +2,11 @@
 #include "main.h"
 /**
  * print_string - Prints a string to stdout.
- * @s: The string to be printed.
+ * @arguments: The string to be printed.
  *
  * Return: The number of characters printed.
  */
 int print_string(va_list arguments)
-
 {
 	char *string = va_arg(arguments, char *);
 	char *null = "(null)";
@@ -15,10 +14,10 @@ int print_string(va_list arguments)
 
 	if (string == NULL)
 	{
-/* print "(null)" and return the number of characters printed (6) */
+		/* print "(null)" and return the number of characters printed (6) */
 		return (write(1, null, 6));
 	}
-/* Loop through the string and print each character until reaching null terminator. */
+	/* Loop through the string and print each character until reaching null */
 	while (*string != '\0')
 	{
 		_putchar(*string);
@@ -29,4 +28,3 @@ int print_string(va_list arguments)
 
 	return (length);
 }
-

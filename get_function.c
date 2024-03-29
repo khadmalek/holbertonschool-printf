@@ -8,8 +8,7 @@
 int get_function(const char specifier, va_list arguments)
 {
 	int index_array = 0;
-	format_handler array[] = 
-	{
+	format_handler array[] = {
 		{'c', print_char},
 		{'s', print_string},
 		{'%', print_perc},
@@ -17,7 +16,7 @@ int get_function(const char specifier, va_list arguments)
 		{'i', print_digit},
 		{'\0', NULL}
 	};
-	/* Loop through the array until terminator is reached */
+
 	while (array[index_array].specifier != '\0')
 	{
 		if (specifier == array[index_array].specifier)
